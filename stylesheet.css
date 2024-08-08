@@ -422,3 +422,19 @@ form button[type="submit"]:hover {
     align-items: center;
     border-radius: 0%;
     }
+    /*----------Projects--------*/
+#Projects{
+    padding: 13px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    height: 85vh;
+    margin-bottom: 0%;
+
+}
+.Projects{
+    padding: 13px;
+    position: relative;
+    margin-top: 3vh;
+    text-decoration: white;
+}
