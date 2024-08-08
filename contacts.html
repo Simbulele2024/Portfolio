@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="icon" type="image/x-icon" href="logo2.png">
+    <title>My Portfolio</title> 
+</head>
+
+<body>
+    <header>
+        <nav class="navigation-bar">
+            <span class="toggle-button">&#9776;</span>
+            <a href="#" class="logo"><img src="logo2.png" height="60px" alt="Logo"></a>
+            <ul class="main-menu">
+                <li><a href="index.html" class="menu-item">Home</a></li>
+                <li><a href="about.html" class="menu-item">About</a></li>
+                <li><a href="projects.html" class="menu-item">Projects</a></li>
+                <li><a href="services.html" class="menu-item">Services</a></li>
+                <li><a href="contacts.html" class="menu-item">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="section-header">
+            <div class="container">
+                <h1>CONTACT ME</h1><br><br><br>
+                <p><em><b>Should you wish to utilize my services, do contact me on the details below.</b></em></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Address</h4>
+                            <img src="icons8-location-pin-16.png" height="20px" alt="Location Icon"><br>
+                            <h3>97 Durham Ave <br>Salt River(Pals Building),<br>Cape Town</h3>
+                        </div>
+                    </div><br>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Phone</h4>
+                            <img src="icons8-phone-64.png" height="20px" alt="Phone Icon"><br><br>
+                            <p>0763720755</p>
+                        </div>
+                    </div><br><br>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Email</h4>
+                            <img src="732200.png" height="20px" alt="Email Icon"><br><br>
+                            <h3>Simbulele.tauzeni@gmail.com</h3>
+                        </div>
+                    </div>
+                </div><br><br>
+                <div class="container">
+                    <form id="contactForm">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+                        <label for="inquiry">Inquiry</label>
+                        <select id="inquiry" name="inquiry">
+                            <option value="Automation Testing">Automation Testing</option>
+                            <option value="Web Design">Web Design</option>
+                            <option value="Software Testing">Software Testing</option>
+                            <option value="Enterprise Architecture">Enterprise Architecture</option>
+                            <option value="Junior Cybersecurity Analyst">Junior Cybersecurity Analyst</option>
+                        </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>All rights reserved by Simbulele Tauzeni.</p>
+        <div class="social-links">
+            <a href="https://github.com/Simbulele2024">
+                <img src="github.png" alt="GitHub Icon" height="40">
+            </a>
+            <a href="https://www.instagram.com/simbulele_tauzeni?igsh=b2h3eHJ3c2o1MG5v">
+                <img src="instagram.png" alt="Instagram Icon" height="40">
+            </a>
+            <a href="https://wa.me/qr/GDDQ3S6IMNGFB1">
+                <img src="whatsapp.png" alt="WhatsApp Icon" height="40">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

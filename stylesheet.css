@@ -220,3 +220,152 @@ footer {
 }
 
     /* end index*/
+
+    /*-------about-------*/
+#about{
+    padding: 80px 0;
+    color: #535251;
+    height: 90vh;
+    margin-top: 0em;
+    margin: 0em;
+    background-color: #f2f2f2;
+}
+.my-text {
+    position: relative;
+    top: 0px;
+    left: 50%;
+    bottom: 80px;
+    transform: translateX(-50%);
+  }
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    font-size: large;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 400px;
+    border-radius: 15px;
+    image-resolution: 90%;
+}
+.about-col-2{
+    flex-basis: 60%;
+    position: relative;
+}
+/* -------- contact ---------*/
+
+.container {
+    width: 76%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.section-header p {
+    font-size: 18px;
+    color: #555;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-info-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-info-content h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.contact-info-content h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form select,
+form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button[type="submit"] {
+    background-color: #1e72e1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+form button[type="submit"]:hover {
+    background-color: #e48383;
+}
+
+.footer {
+    background-color: #535251;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    z-index: 100;
+}
+
+.footer .social-links {
+    margin-top: 20px;
+}
+
+.footer .social-links a {
+    margin: 0 10px;
+}
+
+.footer .social-links img {
+    height: 40px;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+

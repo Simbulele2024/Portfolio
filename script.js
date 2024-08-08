@@ -35,3 +35,26 @@ toggleButton.addEventListener('click', function () {
                 document.getElementById("navbar").style.top = "-50px";
             }
         }
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            
+            
+            var firstName = document.getElementById('fname').value;
+            var lastName = document.getElementById('lname').value;
+            var inquiry = document.getElementById('Inquiry').value;
+            var message = document.getElementById('subject').value;
+    
+            
+            var body = 'First Name: ' + firstName + '\n' +
+                       'Last Name: ' + lastName + '\n' +
+                       'Inquiry: ' + inquiry + '\n' +
+                       'Message: ' + message;
+    
+            
+            var emailTo = 'Simbulele.tauzeni@gmail.com';
+            var subject = 'New Inquiry';
+            var mailtoLink = 'mailto:' + emailTo + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+            
+    
+            window.open(mailtoLink);
+        });
