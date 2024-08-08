@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="icon" type="image/x-icon" href="logo2.png">
+    <title>My Portfolio</title> 
+  </head>
+
+  <body>
+    <header>
+      <nav class="navigation-bar">
+        <span class="toggle-button">&#9776;</span>
+        <a href="#" class="logo"><img src="logo2.png" height="60px" style="padding: 0;"></a>
+        <ul class="main-menu">
+          <li><a href="index.html" class="menu-item">Home</a></li>
+          <li><a href="about.html" class="menu-item">About</a></li>
+          <li><a href="projects.html" class="menu-item">Projects</a></li>
+          <li><a href="services.html" class="menu-item">Services</a></li>
+          <li><a href="contacts.html" class="menu-item">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="home-grid-container">
+      <div class="home-item1 w3-animate-right">
+        <b><i>Hi, I am Simbulele Tauzeni<br> a web Developer from <br>Cape Town</b></i>
+      </div>
+      <div class="home-item2"></div>
+      <div class="home-item3"></div>  
+
+      <div class="home-item4">
+        <a href="Simbulele Tauzeni.pdf" download="Simbulele Tauzeni CV">
+          <button class="homepage-button">Download</button>
+        </a>
+        <a href="contacts.html">
+          <button class="homepage-button">Hire me</button>
+        </a>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('Education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>AWS web services, Cloud platform </span> AWS Cloud Computing</li>
+            <li><span>HTML, CSS, JavaScript & Java</span>Create webpages/applications</li>
+            <li><span>Python</span>Data Visualization</li>
+            <li><span>Enterprise Architecture</span>System modeling and design tools</li>
+            <li><span>Cyber Security</span>Vulnerability Assessment</li>
+            <li><span>MongoDB, SQL & Snowflake</span>Database management</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="Experience">
+          <ul>
+            <li><span>CAPACITI</span><br>Software Development and Automation testing</li>
+            <li><span>IFORITWORLD</span><br>Marketing and sales</li>
+            <li><span>Ennovators</span><br>System Development</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="Education">
+          <ul>
+            <li><br>Diploma ICT Support Services</li>
+            <li>AWS Certified Cloud Practitioner</li>
+            <li>CISSP Information System Security Professional</li>
+            <li>TOGAF 9 combine level 1 & 2.</li>
+            <li>Junior Cybersecurity Analyst</li>
+            <li>CCNAV7 Introduction to Networks</li>
+            <li>Aspire Leaders Program</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Simbulele Tauzeni. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
